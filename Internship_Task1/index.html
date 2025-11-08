@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Webpage - ApexPlanet Internship</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My First Webpage</h1>
+    <p>Created during ApexPlanet Internship (Task-1)</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About This Project</h2>
+    <p>
+      This webpage is built using basics of HTML, CSS, and JavaScript.
+      It demonstrates the foundational concepts of web development created by me.
+    </p>
+
+    
+    <img src="images/myimage.jpg" alt="Colorful abstract wave image">
+  </section>
+
+  <button id="alertBtn">Click Me!</button>
+
+  <footer>
+    <p>© 2025 | Designed by Rupam Mondal | ApexPlanet Internship</p>
+  </footer>
+
+  
+  <script>
+    
+    document.addEventListener("DOMContentLoaded", function() {
+      const btn = document.getElementById("alertBtn");
+      btn.addEventListener("click", function() {
+        alert("Hello! You clicked the button. Welcome to my first webpage!");
+      });
+    });
+  </script>
+</body>
+</html>
